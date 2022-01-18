@@ -1,0 +1,56 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  a:hover {
+    color: slateblue
+  }
+}
+
+.banner {
+  width: 100vw;
+  background-color: white;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.article {
+  padding: 8px 10px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+  margin-top: 10px;
+  h3 {
+    margin: 10px 0;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px 5px;
+  background-color: slategray;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 3px 3px 0 springgreen;
+  margin-top: 10px;
+}
+
+.articles {
+  padding-bottom: 100px;
+}

@@ -1,0 +1,6 @@
+<div class="article">
+<h2><%= @article.title%></h2>
+  <%= @article.content %>
+</div>
+<%= link_to "Editar?", edit_article_path(@article), class: 'btn' %>
+<%= link_to "Borrar?", article_path(@article), method: :delete, class: 'btn' %>
